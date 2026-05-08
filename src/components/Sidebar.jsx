@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import '../css/Sidebar.css';
+import profile from '../src/assets/nailong.png';
 
 const Sidebar = () => {
 
@@ -42,7 +43,7 @@ const Sidebar = () => {
     return (
         <div className="sidebar">
             <div className="user-info">
-                <img src="../src/assets/nailong.png" alt="Picture of Myself" className="avatar" />
+                <img src={profile} alt="Picture of Myself" className="avatar" />
                 <h2>Gerome Ian</h2>
                 <p>Software Developer</p>
             </div>
