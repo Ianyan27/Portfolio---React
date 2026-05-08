@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import '../css/Sidebar.css';
-import profile from '../src/assets/nailong.png';
+import profile from '../assets/nailong.png';
 
 const Sidebar = () => {
 
