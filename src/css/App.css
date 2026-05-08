@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .sidebar {
+        width: auto !important;
+        padding: 1rem 0.75rem !important;
+        margin: 1rem 0.75rem !important;
+    };
+
+    .sidebar nav ul {
+        text-align: center !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* tablets */
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* small laptops */
+}
+
+@media (min-width: 1281px) and (max-width: 1440px) {
+    .sidebar {
+        width: 240px;
+        padding: 1rem 0.75rem;
+        margin: 1rem 0.75rem;
+    };
+}
+
+@media (min-width: 1441px) {
+  /* large screens */
+}

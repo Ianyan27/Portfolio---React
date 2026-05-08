@@ -1,0 +1,54 @@
+.content {
+    height: calc(100vh - 7.5vh);
+    display: grid;
+    grid-template-columns: 250px 1fr;
+}
+
+main {
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 0.5px solid #c8c8c8;
+}
+
+.section-inner {
+    max-width: 680px;
+    width: 100%;
+    padding: 4rem 2rem;
+}
+
+.section-inner h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #2a2a2a;
+    margin: 0 0 1rem;
+}
+
+.section-inner p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    color: #777;
+    line-height: 1.8;
+    margin: 0;
+}
+
+@media only screen and (max-width: 568px) {
+    .content {
+        display: block;
+    }
+    
+    main {
+        padding: 0 1rem;
+    }
+    
+    .section-inner {
+        padding: 2rem 0;
+    }
+}
